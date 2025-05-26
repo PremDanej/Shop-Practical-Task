@@ -7,6 +7,7 @@ import androidx.compose.ui.text.style.LineHeightStyle
 import com.merp.jet.shop.practical.app.R
 
 val CenturyFont = Font(R.font.century_bold)
+val TangerineFont = Font(R.font.tangerine)
 val StandardFont = Font(R.font.neuzeits_book)
 
 // Set of Material typography styles to start with
