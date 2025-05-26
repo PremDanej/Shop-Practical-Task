@@ -12,7 +12,6 @@ import androidx.compose.material3.BadgedBox
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
@@ -23,6 +22,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 import com.merp.jet.shop.practical.app.R
 import com.merp.jet.shop.practical.app.ui.theme.CenturyFont
+import com.merp.jet.shop.practical.app.ui.theme.PrimaryColor
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -54,9 +54,10 @@ fun TopActionBar() {
             BadgedBox(badge = {
                 Badge(
                     modifier = offSetModifier,
-                    containerColor = Color.Green
+                    containerColor = PrimaryColor,
+                    contentColor = Color.Black
                 ) {
-                    Text(text = "3", color = MaterialTheme.colorScheme.background)
+                    Text(text = "5")
                 }
             }) {
                 IconButton(
@@ -69,9 +70,10 @@ fun TopActionBar() {
             BadgedBox(badge = {
                 Badge(
                     modifier = offSetModifier,
-                    containerColor = Color.Green
+                    containerColor = PrimaryColor,
+                    contentColor = Color.Black
                 ) {
-                    Text(text = "3", color = MaterialTheme.colorScheme.background)
+                    Text(text = "3")
                 }
             }) {
                 IconButton(
@@ -82,6 +84,5 @@ fun TopActionBar() {
                 }
             }
         }
-
     )
 }
