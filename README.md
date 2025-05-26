@@ -47,6 +47,6 @@ app/
 |:----------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
 | ![Shop Screen <img height="40%" src="\images\img1.webp" width="40%"/>](images/img1.webp) | ![Shop Screen <img height="40%" src="\images\img2.webp" width="40%"/>](images/img2.webp) | ![Shop Screen<img height="40%" src="\images\img3.webp" width="40%"/>](images/img3.webp) |
 
-| Task Recording                                                                                                                                                                                         |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <iframe width="560" height="315" src="images\recording.mp4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> |
+| Task Recording                                                                                            |
+|-----------------------------------------------------------------------------------------------------------|
+| <video width="560" height="315" controls>  <source src="\images\recording.mp4" type="video/mp4"> </video> |
